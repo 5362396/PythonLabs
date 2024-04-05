@@ -1,4 +1,4 @@
-def split_surnames(surnames: list):
+def split_surnames(surnames: list) -> None:
     a_m = []
     n_z = []
     for surname in surnames:
