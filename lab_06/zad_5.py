@@ -1,8 +1,11 @@
+import unidecode
+
+
 def split_surnames(surnames: list) -> None:
     a_m = []
     n_z = []
     for surname in surnames:
-        if surname[0].upper() <= 'M':
+        if unidecode.unidecode(surname[0].upper()) <= 'M':
             a_m.append(surname)
         else:
             n_z.append(surname)
