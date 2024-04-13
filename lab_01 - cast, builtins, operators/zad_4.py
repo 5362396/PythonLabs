@@ -16,10 +16,10 @@ if true & false:
     print('true and false = false, does not print')
 
 if true & true:
-    print('true or true = true, prints')
+    print('true and true = true, prints')
 
 if false & false:
-    print('false or false = false, does not print')
+    print('false and false = false, does not print')
 
 print('\nExample no. 3 - operator <<\n')
 five = 5
